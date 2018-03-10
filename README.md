@@ -6,13 +6,13 @@ SagoMini Programming Challenge
 #### Clone Repository
     git clone https://github.com/bnalynch/SagoMini.git
 
-#### Install Prequisites (assume Node.js is installed, MongoDB Atlas service)
+#### Install Prequisites (assume Node.js is installed, using MongoDB Atlas service)
     npm install -g pm2@latest
     npm install -g @angular/cli
 
 ---
 
-Each in a separate terminal window:
+*Note: Backend / Frontend should each have a separate terminal window:*
 
 ## Backend
     cd backend
@@ -25,7 +25,7 @@ The backend service is now running at <http://localhost:4242>.
     cd frontend
     npm install
     ng serve
-    
+
 The frontend service is now running at <http://localhost:4200>. The app will automatically reload if you change any of the source files.
 
 ---

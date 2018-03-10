@@ -7,6 +7,6 @@
 //
 
 exports.outputJSON = (res, output) => {
-	res.setHeader('Content-Type', 'application/json')
+    res.setHeader('Content-Type', 'application/json')
     res.send(JSON.stringify(output.toJSON ? output.toJSON() : output, null, 4))
 }

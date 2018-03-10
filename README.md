@@ -1,6 +1,13 @@
 # SagoMini Programming Challenge
 by Brendan Lynch
 
+![Sago Mini Programming Challenge](https://www.dropbox.com/s/fzuzrwwin75anaa/screenshot1.png?raw=1)
+
+## LIVE DEMO! <http://ec2-52-91-1-54.compute-1.amazonaws.com>
+*Requires port 80 and 4242 to be accessible from your network*
+
+---
+
 ## Local Environment Setup
 
 #### Clone Repository
@@ -28,13 +35,11 @@ The backend service is now running at <http://localhost:4242>. Refer to [PM2 doc
 
 The frontend service is now running at <http://localhost:4200>. The app will automatically reload if you change any of the source files.
 
-![Sago Mini Programming Challenge](https://www.dropbox.com/s/fzuzrwwin75anaa/screenshot1.png?raw=1)
-
 ---
 
 ## How to Use
 
-Enter a build identifier for lookup. Press enter or click the 'lookup' button to continue...
+Enter a build identifier for lookup (such as com.sagomini.ProgrammingChallenge). Press enter or click the 'lookup' button to continue...
 
 ![Lookup](https://www.dropbox.com/s/cu3j4tgwo74idti/screenshot2.png?raw=1)
 

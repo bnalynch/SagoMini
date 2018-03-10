@@ -1,0 +1,9 @@
+<form (ngSubmit)="lookupBuild()" class="lookup">
+    <h2>Lookup a Build</h2>
+    <p>
+        <input [(ngModel)]="identifier" placeholder="Enter a Build Identifier" name="identifier" class="identifier" autofocus>
+    </p>
+    <p>
+        <button class="lookup">lookup</button>
+    </p>
+</form>

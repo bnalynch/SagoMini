@@ -1,0 +1,21 @@
+<form class="build">
+    <button (click)="goBack()" class="back">back</button>
+    <h2>Change or Create a Build</h2>
+    <p *ngIf="error" class="alert">
+        Error: {{ error.error.error.message }}
+    </p>
+    <p>
+        <label>Identifier
+              <input [(ngModel)]="build.identifier" placeholder="Enter a Build Identifier" name="identifier" class="identifier">
+        </label>
+    </p>
+    <p>
+        <label>Number
+              <input [(ngModel)]="build.number" placeholder="Enter a Build Number" name="number" class="number">
+        </label>
+    </p>
+    <p>
+        <button (click)=setBuild() class="set">set</button>
+        <button (click)=bumpBuild() class="bump">bump</button>
+    </p>
+</form>

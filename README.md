@@ -1,0 +1,2 @@
+# SagoMini
+SagoMini Programming Challenge

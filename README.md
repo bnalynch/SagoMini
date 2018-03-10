@@ -6,7 +6,7 @@ by Brendan Lynch
 #### Clone Repository
     git clone https://github.com/bnalynch/SagoMini.git
 
-#### Install Prequisites (assume Node.js is installed, using MongoDB Atlas service)
+#### Install Prerequisites (assume Node.js is installed, using MongoDB Atlas service)
     npm install -g pm2@latest
     npm install -g @angular/cli
 
@@ -78,3 +78,15 @@ Ready to create a new build
 
 **/build/:identifier**  
 Load a build directly by bundle identifier (for example [/build/com.sagomini.ProgrammingChallenge](http://localhost:4200/build/com.sagomini.ProgrammingChallenge))
+
+## MongoDB
+
+The database is hosted by the [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) service. You can connect to the cluster using this string in software like [MongoDB Compass](https://www.mongodb.com/products/compass).
+
+    mongodb://clusteradmin:r6azB28kfoLvUy5K@cluster0-shard-00-00-s5aog.mongodb.net:27017,cluster0-shard-00-01-s5aog.mongodb.net:27017,cluster0-shard-00-02-s5aog.mongodb.net:27017/admin?replicaSet=Cluster0-shard-0&ssl=true
+
+The backend service is connected via a separate account and uses [Mongoose](http://mongoosejs.com) object modeling. The build data is stored in the **builds** collection in the **sagomini** database. Example data:
+
+![MongoDB](https://www.dropbox.com/s/8o3j8ej5d2crt4z/screenshot5.png?raw=1)
+
+# Thanks for checking out my app and code!
